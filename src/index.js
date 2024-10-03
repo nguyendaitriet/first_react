@@ -6,6 +6,7 @@ import Main from './Main';
 import reportWebVitals from './reportWebVitals';
 import Avatar from './Avatar';
 import Channel from './Channel';
+import Timer from './Timer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,7 +24,7 @@ emmitComment(3);
 
 root.render(
   <React.StrictMode>
-    <Channel />
+    <Timer />
   </React.StrictMode>
 );
 
