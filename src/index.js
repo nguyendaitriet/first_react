@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import Main from './Main';
 import reportWebVitals from './reportWebVitals';
+import Avatar from './Avatar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Main />
+    <Avatar />
   </React.StrictMode>
 );
 
