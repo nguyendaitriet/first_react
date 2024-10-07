@@ -8,6 +8,7 @@ import Avatar from './Avatar';
 import Channel from './Channel';
 import Timer from './Timer';
 import Product from './Product';
+import NumberChanging from './NumberChanging';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,7 +26,7 @@ emmitComment(3);
 
 root.render(
   <React.StrictMode>
-    <Product />
+    <NumberChanging />
   </React.StrictMode>
 );
 
