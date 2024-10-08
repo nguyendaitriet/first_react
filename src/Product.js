@@ -14,8 +14,6 @@ function Product() {
         () => products.reduce((result, product) => result + product.price, 0),
         [products]
     )
-
-    console.log(totalPrice);
     
     return (
         <>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './ToDo';
 import Main from './Main';
 import reportWebVitals from './reportWebVitals';
 import Avatar from './Avatar';
@@ -9,6 +9,7 @@ import Channel from './Channel';
 import Timer from './Timer';
 import Product from './Product';
 import NumberChanging from './NumberChanging';
+import ToDo from './ToDo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,7 +27,7 @@ emmitComment(3);
 
 root.render(
   <React.StrictMode>
-    <NumberChanging />
+    <App />
   </React.StrictMode>
 );
 
